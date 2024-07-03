@@ -22,10 +22,10 @@
     /* padding-left: 90px; */
 }
 .first{
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 100px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 100;
+    font-weight: normal;
 }
 .firstPara{
    font-size: 20px;
@@ -36,11 +36,11 @@
 .button1{
     background-color: white;
     align-self: flex-start;
-    padding: 25px 45px;
+    padding: 20px 48px;
     border-radius: 110px;
     /* padding-left: 100px; */
     margin-left: 110px;
-    font-size: 20px;
+    font-size: 21px;
     font-family: "Open sans",sans-serif;
     margin-top: 60px;
 }
@@ -58,7 +58,7 @@ a{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
-    font-weight: 100;
+    font-weight:normal;
     padding-top: 50px;
 }
 .line{
@@ -79,13 +79,27 @@ a{
     overflow:hidden;
 }
 .img-book:hover img{
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: 1s;
-}
+    /* opacity: 0.5; */
+    /* z-index: 1; */
+    }
+.img-book::img{
+    /* background-color:rgba(0, 0, 0, 0.550); */
+    /* position: absolute; */
+    /* content: '';        */
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* opacity: 1; */
+    /* z-index: -1; */
+ }
 .third{
     background-color: #333333;
     height: 550px;
     margin-top: 80px;
+    padding-bottom: 50px;
 }
 .line1{
     color: white;
@@ -185,6 +199,7 @@ a{
         background-color: #333333;
         color: white;
         height: auto;
+        margin-top: 25px;
     }
     .flex{
         display: flex;
@@ -218,6 +233,11 @@ a{
         font-family:"Montserrat", sans-serif;
         padding-left: 230px;
     }
+    .straight{
+        width: 530;
+        margin-left:230px ;
+        margin-top: 10px;
+    }
     .last{
         padding-left: 230px;
         margin: 90px 136.825px 0px 0px;
@@ -230,35 +250,88 @@ a{
         font-size: 20px;
         font-family:"Montserrat", sans-serif;
         font-weight: normal;
-        padding-left:300px;
+        padding-left:80px;
         padding-bottom: 30px;
+        padding-top: 100px;
     }
     .num{
         font-family:"Open sans",sans-serif;
         font-size: 19px;
-        padding-left: 300px;
+        padding-left: 80px;
         font-weight: normal;
         padding-bottom: 50px;
         line-height: 30px;
     }
     .phone{
-        font-size: 19px;
+        font-size: 25px;
         font-family: "Open sans",sans-serif;
-        font-weight: normal;
-        padding-left: 300px;
+        font-weight: bolder;
+        /* padding-left: 80px; */
+        /* padding-top: 2px; */
     }
     .number{
         font-family: "Open sans",sans-serif;
-        font-size: 24px;
-        padding-left: 330px;
+        font-size: 18px;
+        padding-left: 80px;
+        margin-bottom: 10px;
+        font-weight: normal;
     }
     .text{
         margin: 171px 0px 0px;
         font-family:"Open sans",sans-serif;
-        font-size: 18px;
-        padding-left: 300px;
+        font-size: 20px;
+        padding-left: 80px;
         font-weight: normal;
+        line-height: 30px;
+        /* padding-top: 1px; */
     }
+    .social{
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 130.375px 0px 0px;
+        font-size:20px ;
+        font-weight: normal;
+        padding-left: 70px;
+        padding-top:100px ;
+    }
+    .icon{
+        color: #7fc0ca;
+        font-size:40px ;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+    .image16{
+        height:170px;
+        width: 210px;
+        padding-top: 10px;
+        padding-left: 50px;
+        margin: 165px 50px 0px 0px;
+    }   
+    .element{
+        margin: 49px 369.5px;
+        font-size: 14px;
+        font-family:"Open sans",sans-serif ;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .link a{
+        font-family: "Open sans" , sans-serif;
+        font-size: normal;
+        font-size: 12.8px;
+        color:#C7E5EA; 
+        text-decoration: underline;
+       /* padding-top:20px; */
+    }
+    .link{
+        color: white;
+        /* padding-top:10px; */
+        padding-left: 625px;
+        font-family: "Open sans" , sans-serif;
+        font-size: 12.8px;
+        font-size: normal;
+        padding-bottom: 40px;
+    }
+    
 
    
     
